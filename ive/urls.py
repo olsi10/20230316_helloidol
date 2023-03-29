@@ -4,7 +4,7 @@ from ive import views
 app_name = 'ive'
 
 urlpatterns = [
-    path('oneyoung/', views.show_oneyoung(), name='show_oneyoung'),
-    path('youjin/', views.show_youjing(), name='show_youjin'),
+    path('ive/show_one/', views.show_one, name='show_one'),
+    path('ive/show_you/', views.show_you, name='show_you'),
     # path('bye_html/', views.say_bye_html, name='bye_html'),
 ]
