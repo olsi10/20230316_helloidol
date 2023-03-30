@@ -4,7 +4,7 @@ from django.shortcuts import render
 def show_one(request):
     context = {
         'name': '원영',
-        'url': 'http://health.chosun.com/site/data/img_dir/2011/01/06/2011010601681_0.jpg',
+        'url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_KOtw4lFxVSNSaTLdLoHyilh2GK6olIaHtIYP3-dVdw&s',
     }
 
     return render(request, 'ive/member.html', context=context)
