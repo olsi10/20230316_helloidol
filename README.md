@@ -48,3 +48,6 @@
    1. views
       1. show_one( )
       2. show_you( )
+   2. urls
+      1. ive/ -> one -> show_one()
+      2. ive/ -> you -> show_you()
