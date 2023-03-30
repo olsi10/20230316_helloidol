@@ -43,3 +43,8 @@
 
 6. helloidol/urls
    1. ive/ -> ive.urls
+
+7. _ive_/
+   1. views
+      1. show_one( )
+      2. show_you( )
