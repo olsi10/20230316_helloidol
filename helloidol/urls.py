@@ -23,5 +23,6 @@ urlpatterns = [
     path('playground/', include('playground.urls')),
     path('ive', include('ive.urls')),
     path('admin/', admin.site.urls),
+    path('ive/', include('ive.urls')),
 
 ]
