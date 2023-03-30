@@ -51,3 +51,7 @@
    2. urls
       1. ive/ -> one -> show_one()
       2. ive/ -> you -> show_you()
+   3. templates/ive/
+      1. ~~one.html~~
+      2. ~~you.html~~
+      3. member.html

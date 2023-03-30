@@ -4,15 +4,15 @@ from django.shortcuts import render
 def show_one(request):
     context = {
         'name': '원영',
-        'urls': 'https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/10/01/gppKEHUiAyIO638002448398716484.jpg',
+        'url': 'http://health.chosun.com/site/data/img_dir/2011/01/06/2011010601681_0.jpg',
     }
 
-    return render(request, 'ive/one.html', context=context)
+    return render(request, 'ive/member.html', context=context)
 
 def show_you(request):
     context = {
         'name': '유진',
-        'urls': 'http://www.tvj.co.kr/news/photo/202204/70870_201468_375.jpg',
+        'url': 'http://www.tvj.co.kr/news/photo/202204/70870_201468_375.jpg',
     }
 
-    return render(request, 'ive/you.html', context=context)
+    return render(request, 'ive/member.html', context=context)
